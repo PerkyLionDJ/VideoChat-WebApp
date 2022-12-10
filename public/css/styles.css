@@ -18,7 +18,7 @@ body {
     color: #212529;
     text-align: left;
 	display: block;
-	background-color: #0080AD;
+	background-color: #0f0f0f;
 	font-family: 'Baloo Tamma 2', cursive;
 }
 
@@ -26,6 +26,21 @@ body {
 	height: 100%!important;
 }
 
+.brand{
+	padding: 20px;
+	background: rgb(210,147,46);
+	display: flex;
+	align-items: center;
+	border-radius: 20px;
+}
+
+.brand h1{
+	text-transform: uppercase;
+	font-size: 20px;
+	color: rgb(51, 51, 169);
+	text-align: center;
+	margin: auto;
+}
 .row {
     display: -ms-flexbox;
     display: flex;
@@ -145,14 +160,15 @@ body {
 
 	.remote2_div {
 		width:33%;
-		float:left
+		float:right
 	}
 
 	#video_container {
 		display: flex;
 		width: 85%;
 		margin: auto;
-		height: 80% 
+		height: 80%
+		
 	}
 	
 	video {
