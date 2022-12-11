@@ -45,6 +45,7 @@ body {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
+	padding-left: 30px;
     flex-wrap: wrap;
 
 }
@@ -150,7 +151,8 @@ body {
 	
 	.local_div {
 		width:33%;
-		float:left
+		float:left;
+		margin-right: 50px;
 	}
 
 	.remote_div {
@@ -166,9 +168,8 @@ body {
 	#video_container {
 		display: flex;
 		width: 85%;
-		margin: auto;
+		margin: 100px;
 		height: 80%
-		
 	}
 	
 	video {
@@ -248,8 +249,8 @@ body {
 	}
 
 	.local_div {
-		display: flex
-		;
+		display: flex;
+		margin-right: 50px;
 		width: 100%;
 		position:relative;
     overflow:hidden;
