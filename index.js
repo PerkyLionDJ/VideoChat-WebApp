@@ -16,6 +16,10 @@ app.get("/", function(req, res){
 	res.render("index.ejs");
 });
 
+app.get("/end", function(req, res){
+	res.render("thankyou.ejs");
+});
+
 //For SSL Certificate
 var server = http.createServer(app);
  
