@@ -1,5 +1,6 @@
 *, ::after, ::before {
     box-sizing: border-box;
+	border-radius: 25px;
 }
 
 
@@ -85,6 +86,12 @@ body {
     margin-left: auto;
 }
 
+#demo {
+	text-align: center;
+    color: #c6aeae;
+    margin-top: -543px;
+}
+  
 
 
 /* For Desktop  */

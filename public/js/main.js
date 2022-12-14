@@ -57,6 +57,14 @@ socket.on('log', function(array) {
   console.log.apply(console, array);
 });
 
+let person = prompt("Please enter your name", "");
+
+if (person != null) {
+  document.getElementById("demo").innerHTML =
+  "Hello " + person + " ! Welcome to our video chat app";
+}
+
+
 
 //Driver code
 socket.on('message', function(message, room) {
