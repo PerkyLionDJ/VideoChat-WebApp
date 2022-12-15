@@ -313,6 +313,29 @@ body {
 	
 }
 
+.close{
+	margin-top: 37%;
+	margin-right: 46%;
+}
 
+.btn {
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 18px;
+	background: #a80000;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	width:15%;
+	height: 17%;
+  }
+  
+  .btn:hover {
+	background: #ff0000;
+	text-decoration: none;
+  }
 
+  
 	

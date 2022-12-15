@@ -1,0 +1,13 @@
+.thankyou_text{
+    font-size: 240%;
+    font-family: cursive;
+	display: flex;
+	justify-content: center;
+    margin-top: 7%;
+  }
+
+  .thankyou_image{
+	display: flex;
+	justify-content: center;
+    margin-top: 3%;
+  }
